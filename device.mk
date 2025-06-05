@@ -47,3 +47,4 @@ PRODUCT_SOONG_NAMESPACES += \
 # Vibrator
 $(call soong_config_set,qti_vibrator,effect_lib,libqtivibratoreffect.xiaomi)
 $(call soong_config_set,qti_vibrator,use_effect_stream,true)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
